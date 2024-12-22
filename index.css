@@ -1,0 +1,578 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: none;
+    overflow-x: hidden;
+}
+
+
+input{
+z-index: 999;
+}
+
+
+.per-main{
+    display: inline-block;
+    padding: 20% 20% 20% 20%;
+    border: 1px solid white;
+    border-radius: 100%;
+    z-index: 999;
+}
+.per-main::before{
+    content: "";
+    background-color: red;
+    padding: 22%;
+    border-radius: 100%;
+   
+    position: absolute;
+    top: 6%;
+    left: 28%;
+}
+.main-qua{
+    border-radius: 10px;
+    box-shadow: 10px 2px 30px 1px  brown;
+}
+.main-box{
+    border: 1px solid wheat;
+    background-color: #323A40;
+    border-radius: 40px;
+}
+.main-box::after{
+    content:"";
+    padding: 100%;
+    position: absolute;
+    border: rgba(231, 25, 25, 0.533);
+}
+.box-heading{
+    font-size: 40px;
+    color: white;
+
+}
+
+.box-heading::after{
+    content:"";
+    padding: 100px;
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+
+}
+
+
+
+
+
+
+
+
+
+
+.navbar-toggler{
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 10px;
+    animation: Ak 5s infinite;
+    color: white;
+    z-index: 999;
+
+}
+.navbar-toggler{
+    content: "";
+    /* animation: Ak 5s infinite; */
+}
+.heading-one{
+    animation: head 20s infinite;
+}
+@keyframes head{
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+        color: rgb(114, 114, 121);
+
+    }
+    50% {
+        opacity: 0;
+
+    }
+    75% {
+        opacity: 1;
+        color: rgb(211, 211, 224);
+
+
+    }
+    100% {
+        opacity: 0;
+
+    }
+
+}
+.resume{
+    animation: res 15s infinite ;
+    
+}
+.resume{
+    padding-left: 100px;
+}
+.html{
+    animation: htm 10s infinite;
+}
+@keyframes htm{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.css{
+    animation: css 10s infinite ;
+    animation-play-state: running;
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.java{
+    animation: java 10s infinite;
+}
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+.boot{
+    animation: boot 10s infinite;
+}
+@keyframes boot{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.react{
+    animation: react 10s infinite;
+}
+@keyframes react{
+    0%{
+        width: 0%;
+    }
+    100%{
+        content: "UMAR";
+        width: 50%;
+    }
+}
+
+
+@keyframes res{
+    0% {
+        border: 2px solid red;
+    }
+    75% {
+        border: 2px solid rgb(55, 0, 255);    }
+    100% {
+        border: 2px solid rgb(0, 255, 76);
+    }
+    
+}
+
+@keyframes Ak {
+    0% {
+    opacity: 1px;
+    }
+    20% {top: 200px;
+    
+    }
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  .log{
+    color:brown;
+  }
+  .umar{
+    opacity: 0;
+    animation: fadein-anim 30s infinite;;
+  }
+  @keyframes fadein-anim{
+    100%{
+        opacity: 1;
+    }
+  }
+
+  .navbar{
+    background-color: rgb(48, 45, 45);
+    color: white;
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid rgb(100, 87, 87);
+    box-shadow: 0px 2px 10px 2px rgb(104, 89, 89);
+    margin-top: 60px;
+  }
+
+  @media(max-width:750px){
+    .navbar{
+        margin-top: 0px;
+    }
+}
+@media(max-width:500px){
+    .umar{
+        margin-top: 150px;
+        width: 400px;
+        background-color: red;
+    }
+}
+@media(max-width:1100px){
+    .umar{
+        margin-top: 150px;
+        width: 400px;
+        background-color: green;
+    }
+}
+.navbar-toggler{
+    animation: ico 10s infinite ;
+
+}
+.profile-head{
+    color: white;
+    font-size: 30px;
+    line-height: 1.5;
+}
+.head{
+    font-size: 40px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.html{
+   
+
+
+}
+.html::after{
+    
+}
+@keyframes ico {
+    0% {
+        border: 1px solid rgb(85, 76, 76);
+
+    }
+    25% {
+        border: 1px solid white;
+
+    }
+    50% {
+        border: 1px solid rgb(85, 73, 73);
+
+    }
+    100% {
+        border: 1px solid white;
+
+    }
+    
+}
+.home{
+    color: brown;
+}
+a{
+    text-decoration: none;
+}
+.nav-link{
+    font-size: 18px;
+    text-decoration: none;
+}
+/* .nav-link::after{
+    content: "";
+    background-color:brown;
+    display: inline-block;
+    padding: 1px;
+}
+.nav-link:hover::after{
+    width: 100%;
+    transition:0.5s;
+} */
+.nav-link:hover{
+    text-decoration: none;
+    color: brown;
+    transition: 2s;
+
+}
+.navbar-brand{
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+.navbar-brand:hover{
+    text-decoration: none;
+    color: white;
+}
+.heading-one{
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffff;
+    top: 0%;
+    left: 0%;
+    letter-spacing: 5px;
+    line-height: 1.5;
+}
+.main{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 10%;
+    z-index: 1;
+    animation: back 20s infinite;
+}
+@keyframes back{
+    0%{
+        background-image: url(./Images/chip2.jpg);
+    }
+    25%{
+        background-image: url(./Images/chip1.jpg);
+
+    }
+    50%{
+        background-image: url(./Images/banner8.jpg);
+
+    }
+    100%{
+        background-image: url(./Images/banner9.jpg);
+
+    }
+}
+.main::after{
+    content: "";
+    top: 0%;
+    left: 0px;
+    background-color: rgb(29, 28, 28);
+    position: absolute;
+    padding:24%;
+    width: 100%;
+    height: 100%;
+    opacity: 80%;
+    z-index: -1;
+}
+.heading-two{
+    color: rgb(167, 34, 34);
+    font-weight: 800;
+
+}
+.resume{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: brown;
+
+}
+.resume:hover{
+    background-color: brown;
+    border: 2px solid brown;
+    transition: 3s;
+    color: white;
+}
+.main-img{
+    padding: 110px;
+    border-radius: 100%;
+    border: 1px solid rgb(116, 108, 108);
+
+}
+.umar{
+background-clip: padding-box;
+}
+/* .image{
+    background-image: url(./Images/Umarkot-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    padding:300px;
+} */
+                                                    /* Flip Card */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 50px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 50px;
+
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 50px;
+}
+.flip-card-front img{
+border-radius: 50px;
+}
+
+
+.flip-card-back {
+  background-color: rgb(114, 114, 121);
+  color: white;
+  transform: rotateY(180deg);
+}
+.back-head{
+    font-size: 40px;
+    color: white;
+}
+.back-per{
+    font-size: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                            /* Whatsapp */
+
+.footer-link{
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+}
+.footer-link:hover{
+    color: orange;
+}
+.mtm{
+    z-index: -999;
+}
+
+/* Waves Animation start*/
+
+.hero_area {
+    position: relative;
+    background-color: black;
+    z-index: 999;
+    margin: 0%;
+    padding: 0px;
+}
+
+.waves {
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    min-height: 100px;
+    max-height: 150px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0px;
+}
+
+.parallax>use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+
+.parallax>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+
+.parallax>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+
+.parallax>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+
+/*Shrinking for mobile*/
+
+@media (max-width: 768px) {
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+}
+
+/* Waves Animation end*/
+
+.main-top{
+    width: 100%;
+    padding: 30px;
+    position: fixed;
+    z-index: 9999;
+    background-color:#312D2D;
+    border-bottom: 1px solid whitesmoke;
+
+}
+@media(max-width:750px){
+    .main-top{
+        display: none;
+        position:relative;
+    }
+}
